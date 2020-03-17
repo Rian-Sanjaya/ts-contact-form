@@ -15,8 +15,8 @@ export interface IContact {
 }
 
 export type TCurrentUser = {
-  name: string,
-  email: string
+  name: string;
+  email: string;
 }
 
 type AppProps = {}

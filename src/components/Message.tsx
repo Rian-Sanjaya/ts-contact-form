@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react'
 
 type AppProps = {
-  header: string
-  text: string
-  children: ReactNode
+  header: string;
+  text: string;
+  children: ReactNode;
 }
 
 export const Message = ({ header, text, children }: AppProps) => {
